@@ -40,6 +40,10 @@ Build a portfolio-quality healthcare and psychology data science workflow from d
 
 ## Status
 
-**Day 1 — Project setup**
+**Day 3 — Load and inspect a synthetic dataset**
 
-Next: establish the project structure and work with a small, safe dataset to practice data loading, inspection, cleaning, and basic exploratory analysis.
+Added a small synthetic dataset and a Python script to load it with Pandas, inspect its structure and data types, and check for missing values.
+
+The dataset is synthetic and does not represent real patients.
+
+Next: identify and document data-quality issues before cleaning.
