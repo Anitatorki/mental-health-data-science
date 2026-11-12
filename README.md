@@ -42,8 +42,8 @@ Build a portfolio-quality healthcare and psychology data science workflow from d
 
 **Day 8 — Introduction to Linear Regression**
 
-Added a small synthetic dataset and a Python script to load it with Pandas, inspect its structure and data types, and check for missing values.
+Completed data loading, data cleaning, exploratory analysis, descriptive statistics, visualization, correlation, and an introductory linear regression example.
 
-The dataset is synthetic and does not represent real patients.
+Day 8 adds a simple model using sleep hours to estimate wellbeing scores from synthetic data. The dataset does not represent real patients.
 
-Next: identify and document data-quality issues before cleaning.
+Next: learn how to evaluate regression predictions and understand the limitations of a small dataset.
