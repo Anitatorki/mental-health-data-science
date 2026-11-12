@@ -40,7 +40,7 @@ Build a portfolio-quality healthcare and psychology data science workflow from d
 
 ## Status
 
-**Day 3 — Load and inspect a synthetic dataset**
+**Day 8 — Introduction to Linear Regression**
 
 Added a small synthetic dataset and a Python script to load it with Pandas, inspect its structure and data types, and check for missing values.
 
