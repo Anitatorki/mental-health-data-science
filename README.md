@@ -40,10 +40,10 @@ Build a portfolio-quality healthcare and psychology data science workflow from d
 
 ## Status
 
-**Day 8 — Introduction to Linear Regression**
+**Day 9 — Evaluating a Linear Regression Model**
 
-Completed data loading, data cleaning, exploratory analysis, descriptive statistics, visualization, correlation, and an introductory linear regression example.
+Completed data loading, data cleaning, exploratory analysis, descriptive statistics, visualization, correlation, an introductory linear regression model, and a first model evaluation using a train/test split.
 
-Day 8 adds a simple model using sleep hours to estimate wellbeing scores from synthetic data. The dataset does not represent real patients.
+Day 9 introduces MAE, MSE, RMSE, and test-set R-squared. The dataset is small and synthetic, so the metrics are unstable and for learning only.
 
-Next: learn how to evaluate regression predictions and understand the limitations of a small dataset.
+Next: explore multiple linear regression with more than one input feature and discuss the risks of overfitting.
