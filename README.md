@@ -40,10 +40,12 @@ Build a portfolio-quality healthcare and psychology data science workflow from d
 
 ## Status
 
-**Day 9 — Evaluating a Linear Regression Model**
+**Day 10 — Multiple Linear Regression**
 
-Completed data loading, data cleaning, exploratory analysis, descriptive statistics, visualization, correlation, an introductory linear regression model, and a first model evaluation using a train/test split.
+Completed data loading, cleaning, exploratory analysis, descriptive statistics, visualization, correlation, simple linear regression, model evaluation, and multiple linear regression.
 
-Day 9 introduces MAE, MSE, RMSE, and test-set R-squared. The dataset is small and synthetic, so the metrics are unstable and for learning only.
+Day 10 uses sleep hours, exercise days per week, and work/study hours as predictors of a synthetic wellbeing score. The script uses a train/test split and a median imputation pipeline, then reports MAE, RMSE, R-squared, and fitted coefficients.
 
-Next: explore multiple linear regression with more than one input feature and discuss the risks of overfitting.
+The dataset is small and synthetic. Results are for learning only; they do not establish causation or provide clinical conclusions.
+
+Next: compare training and test performance and learn how overfitting can make a model perform poorly on unseen data.
