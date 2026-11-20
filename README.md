@@ -40,12 +40,18 @@ Build a portfolio-quality healthcare and psychology data science workflow from d
 
 ## Status
 
-**Day 10 — Multiple Linear Regression**
+**Day 11 — Overfitting, Underfitting, and Model Reliability**
 
-Completed data loading, cleaning, exploratory analysis, descriptive statistics, visualization, correlation, simple linear regression, model evaluation, and multiple linear regression.
+Completed data loading, cleaning, exploratory analysis, descriptive statistics, visualization, correlation, simple and multiple linear regression, and model evaluation.
 
-Day 10 uses sleep hours, exercise days per week, and work/study hours as predictors of a synthetic wellbeing score. The script uses a train/test split and a median imputation pipeline, then reports MAE, RMSE, R-squared, and fitted coefficients.
+Day 11 compares a mean baseline, linear regression, and decision trees with different depths. It evaluates training and held-out test MAE/RMSE to help identify underfitting, overfitting, and generalization gaps.
+
+Run the lesson with:
+
+```bash
+python src/09_model_reliability.py
+```
 
 The dataset is small and synthetic. Results are for learning only; they do not establish causation or provide clinical conclusions.
 
-Next: compare training and test performance and learn how overfitting can make a model perform poorly on unseen data.
+Next: cross-validation and more reliable model evaluation.
